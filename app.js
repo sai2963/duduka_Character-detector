@@ -7,7 +7,7 @@ let cardText = document.getElementById('character-input');
       if (isASCII(character)) {
         resultText.textContent = 'The entered character is an ASCII character.';
       } else {
-        resultText.textContent = 'The entered character is a Unicode character.';
+        resultText.textContent = 'The entered character is a Unicode character. .';
       }
     }
 
